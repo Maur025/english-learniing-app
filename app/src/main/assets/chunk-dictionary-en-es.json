@@ -1,0 +1,1479 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "1.0.0",
+  "title": "Inglés para un día normal — diccionario base",
+  "sourceLanguage": "en-US",
+  "targetLanguage": "es",
+  "createdAt": "2026-10-19",
+  "educationalNote": "Material original preparado y revisado por IA con referencias lingüísticas selectivas. Las traducciones son contextuales y los niveles MCER son aproximados, no certificados. No sustituye una revisión integral por un profesional docente.",
+  "categories": [
+    {
+      "id": "SOCIAL",
+      "name": "Conversar y socializar"
+    },
+    {
+      "id": "REQUESTS",
+      "name": "Pedir y expresar necesidades"
+    },
+    {
+      "id": "CLARIFY",
+      "name": "Preguntar y aclarar dudas"
+    },
+    {
+      "id": "OPINIONS",
+      "name": "Expresar opiniones y proponer planes"
+    },
+    {
+      "id": "EXPERIENCES",
+      "name": "Contar experiencias y resolver problemas"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "HOME",
+      "name": "En casa"
+    },
+    {
+      "id": "SOCIAL",
+      "name": "Con amigos y conocidos"
+    },
+    {
+      "id": "WORK",
+      "name": "En el trabajo"
+    },
+    {
+      "id": "FOOD",
+      "name": "En restaurantes y comidas"
+    },
+    {
+      "id": "SHOPPING",
+      "name": "En tiendas y compras"
+    },
+    {
+      "id": "TRANSPORT",
+      "name": "En transporte público y desplazamientos"
+    },
+    {
+      "id": "SERVICES",
+      "name": "En servicios y trámites"
+    },
+    {
+      "id": "STUDY",
+      "name": "Estudiando y aprendiendo"
+    },
+    {
+      "id": "LEISURE",
+      "name": "En el tiempo libre"
+    },
+    {
+      "id": "FAMILY",
+      "name": "Con la familia"
+    },
+    {
+      "id": "TRAVEL",
+      "name": "En viajes"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "chunk-001",
+      "expression": "How's ... going?",
+      "meaning": "¿Cómo va...?, ¿qué tal va...?",
+      "category": "SOCIAL",
+      "levelEstimate": "A2",
+      "usageNote": "Se utiliza para preguntar cómo marcha algo. Con personas también puedes decir «How's your day going?».",
+      "examples": [
+        {
+          "id": "ex-001-01",
+          "context": "SOCIAL",
+          "english": "How's your day going?",
+          "spanish": "¿Cómo te está yendo el día?"
+        },
+        {
+          "id": "ex-001-02",
+          "context": "WORK",
+          "english": "How's work going?",
+          "spanish": "¿Cómo te va en el trabajo?"
+        },
+        {
+          "id": "ex-001-03",
+          "context": "TRAVEL",
+          "english": "How's your trip going?",
+          "spanish": "¿Cómo va tu viaje?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-002",
+      "expression": "What have you been up to?",
+      "meaning": "¿Qué has estado haciendo últimamente?",
+      "category": "SOCIAL",
+      "levelEstimate": "B1",
+      "usageNote": "Pregunta informal sobre actividades recientes. Es natural entre conocidos.",
+      "examples": [
+        {
+          "id": "ex-002-01",
+          "context": "SOCIAL",
+          "english": "Hey, what have you been up to?",
+          "spanish": "Oye, ¿qué has estado haciendo últimamente?"
+        },
+        {
+          "id": "ex-002-02",
+          "context": "FAMILY",
+          "english": "What have you been up to lately?",
+          "spanish": "¿Qué has estado haciendo estos últimos días?"
+        },
+        {
+          "id": "ex-002-03",
+          "context": "WORK",
+          "english": "So, what have you been up to this week?",
+          "spanish": "Entonces, ¿en qué has estado ocupado esta semana?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-003",
+      "expression": "It's good to see you.",
+      "meaning": "Qué bueno verte.",
+      "category": "SOCIAL",
+      "levelEstimate": "A2",
+      "usageNote": "Fórmula de saludo al encontrarte con alguien; puedes añadir un complemento.",
+      "examples": [
+        {
+          "id": "ex-003-01",
+          "context": "SOCIAL",
+          "english": "It's good to see you again.",
+          "spanish": "Qué bueno verte de nuevo."
+        },
+        {
+          "id": "ex-003-02",
+          "context": "FAMILY",
+          "english": "It's good to see you after so long.",
+          "spanish": "Qué bueno verte después de tanto tiempo."
+        },
+        {
+          "id": "ex-003-03",
+          "context": "WORK",
+          "english": "It's good to see everyone in person.",
+          "spanish": "Qué bueno verlos a todos en persona."
+        }
+      ]
+    },
+    {
+      "id": "chunk-004",
+      "expression": "How about ...?",
+      "meaning": "¿Qué tal si...?, ¿y si...?",
+      "category": "SOCIAL",
+      "levelEstimate": "A2",
+      "usageNote": "Sirve para proponer opciones. Puede ir seguido de un sustantivo, verbo en -ing o una oración como «we + verbo».",
+      "examples": [
+        {
+          "id": "ex-004-01",
+          "context": "FOOD",
+          "english": "How about we grab lunch?",
+          "spanish": "¿Qué tal si vamos a almorzar?"
+        },
+        {
+          "id": "ex-004-02",
+          "context": "TRANSPORT",
+          "english": "How about taking the bus?",
+          "spanish": "¿Qué tal si tomamos el autobús?"
+        },
+        {
+          "id": "ex-004-03",
+          "context": "WORK",
+          "english": "How about meeting after work?",
+          "spanish": "¿Qué tal si nos reunimos después del trabajo?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-005",
+      "expression": "Do you want to ...?",
+      "meaning": "¿Quieres...?",
+      "category": "SOCIAL",
+      "levelEstimate": "A1",
+      "usageNote": "Invitación o pregunta sobre lo que la otra persona desea hacer. Va seguido del verbo en forma base.",
+      "examples": [
+        {
+          "id": "ex-005-01",
+          "context": "SOCIAL",
+          "english": "Do you want to go for a walk?",
+          "spanish": "¿Quieres salir a caminar?"
+        },
+        {
+          "id": "ex-005-02",
+          "context": "FOOD",
+          "english": "Do you want to try this dish?",
+          "spanish": "¿Quieres probar este plato?"
+        },
+        {
+          "id": "ex-005-03",
+          "context": "WORK",
+          "english": "Do you want to take a break?",
+          "spanish": "¿Quieres tomarte un descanso?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-006",
+      "expression": "That sounds ...",
+      "meaning": "Eso suena..., parece...",
+      "category": "SOCIAL",
+      "levelEstimate": "A2",
+      "usageNote": "Para reaccionar a lo que alguien propone o cuenta; puede llevar adjetivo o «like + sustantivo».",
+      "examples": [
+        {
+          "id": "ex-006-01",
+          "context": "LEISURE",
+          "english": "That sounds fun!",
+          "spanish": "¡Eso suena divertido!"
+        },
+        {
+          "id": "ex-006-02",
+          "context": "SOCIAL",
+          "english": "That sounds like a good idea.",
+          "spanish": "Eso parece una buena idea."
+        },
+        {
+          "id": "ex-006-03",
+          "context": "WORK",
+          "english": "That sounds difficult.",
+          "spanish": "Eso parece difícil."
+        }
+      ]
+    },
+    {
+      "id": "chunk-007",
+      "expression": "I'm glad ...",
+      "meaning": "Me alegra que..., estoy contento de que...",
+      "category": "SOCIAL",
+      "levelEstimate": "B1",
+      "usageNote": "Expresa alegría o alivio. Después suele ir una oración completa.",
+      "examples": [
+        {
+          "id": "ex-007-01",
+          "context": "FAMILY",
+          "english": "I'm glad you're here.",
+          "spanish": "Me alegra que estés aquí."
+        },
+        {
+          "id": "ex-007-02",
+          "context": "SOCIAL",
+          "english": "I'm glad we had time to talk.",
+          "spanish": "Me alegra que hayamos tenido tiempo para conversar."
+        },
+        {
+          "id": "ex-007-03",
+          "context": "WORK",
+          "english": "I'm glad everything worked out.",
+          "spanish": "Me alegra que todo haya salido bien."
+        }
+      ]
+    },
+    {
+      "id": "chunk-008",
+      "expression": "Let me know if ...",
+      "meaning": "Avísame si...",
+      "category": "SOCIAL",
+      "levelEstimate": "A2",
+      "usageNote": "Ofrece ayuda, pide una actualización o indica que quieres recibir información.",
+      "examples": [
+        {
+          "id": "ex-008-01",
+          "context": "SOCIAL",
+          "english": "Let me know if you're free tomorrow.",
+          "spanish": "Avísame si estás libre mañana."
+        },
+        {
+          "id": "ex-008-02",
+          "context": "WORK",
+          "english": "Let me know if you need help.",
+          "spanish": "Avísame si necesitas ayuda."
+        },
+        {
+          "id": "ex-008-03",
+          "context": "TRANSPORT",
+          "english": "Let me know if the bus is running late.",
+          "spanish": "Avísame si el autobús se está retrasando."
+        }
+      ]
+    },
+    {
+      "id": "chunk-009",
+      "expression": "Thanks for ...",
+      "meaning": "Gracias por...",
+      "category": "SOCIAL",
+      "levelEstimate": "A1",
+      "usageNote": "«For» va seguido de un sustantivo o un verbo en -ing.",
+      "examples": [
+        {
+          "id": "ex-009-01",
+          "context": "WORK",
+          "english": "Thanks for helping me.",
+          "spanish": "Gracias por ayudarme."
+        },
+        {
+          "id": "ex-009-02",
+          "context": "TRANSPORT",
+          "english": "Thanks for the ride.",
+          "spanish": "Gracias por llevarme."
+        },
+        {
+          "id": "ex-009-03",
+          "context": "SOCIAL",
+          "english": "Thanks for inviting me.",
+          "spanish": "Gracias por invitarme."
+        }
+      ]
+    },
+    {
+      "id": "chunk-010",
+      "expression": "I don't feel like ...",
+      "meaning": "No tengo ganas de...",
+      "category": "SOCIAL",
+      "levelEstimate": "B1",
+      "usageNote": "Para expresar falta de ganas; admite un sustantivo o un verbo en -ing.",
+      "examples": [
+        {
+          "id": "ex-010-01",
+          "context": "HOME",
+          "english": "I don't feel like cooking tonight.",
+          "spanish": "No tengo ganas de cocinar esta noche."
+        },
+        {
+          "id": "ex-010-02",
+          "context": "SOCIAL",
+          "english": "I don't feel like going out.",
+          "spanish": "No tengo ganas de salir."
+        },
+        {
+          "id": "ex-010-03",
+          "context": "SOCIAL",
+          "english": "I don't feel like talking about work right now.",
+          "spanish": "No tengo ganas de hablar del trabajo ahora mismo."
+        }
+      ]
+    },
+    {
+      "id": "chunk-011",
+      "expression": "I'd like ...",
+      "meaning": "Me gustaría..., quisiera...",
+      "category": "REQUESTS",
+      "levelEstimate": "A2",
+      "usageNote": "Petición cortés: «I'd like + sustantivo» o «I'd like to + verbo».",
+      "examples": [
+        {
+          "id": "ex-011-01",
+          "context": "FOOD",
+          "english": "I'd like a cup of coffee, please.",
+          "spanish": "Quisiera una taza de café, por favor."
+        },
+        {
+          "id": "ex-011-02",
+          "context": "TRAVEL",
+          "english": "I'd like to book a room for two nights.",
+          "spanish": "Me gustaría reservar una habitación por dos noches."
+        },
+        {
+          "id": "ex-011-03",
+          "context": "SERVICES",
+          "english": "I'd like some help with this form.",
+          "spanish": "Quisiera ayuda con este formulario."
+        }
+      ]
+    },
+    {
+      "id": "chunk-012",
+      "expression": "Could I have ...?",
+      "meaning": "¿Me podría dar...?, ¿podría tener...?",
+      "category": "REQUESTS",
+      "levelEstimate": "A2",
+      "usageNote": "Petición cortés, especialmente al solicitar objetos o servicios.",
+      "examples": [
+        {
+          "id": "ex-012-01",
+          "context": "FOOD",
+          "english": "Could I have a glass of water, please?",
+          "spanish": "¿Me podría dar un vaso de agua, por favor?"
+        },
+        {
+          "id": "ex-012-02",
+          "context": "FOOD",
+          "english": "Could I have the check, please?",
+          "spanish": "¿Me trae la cuenta, por favor?"
+        },
+        {
+          "id": "ex-012-03",
+          "context": "TRAVEL",
+          "english": "Could I have a window seat?",
+          "spanish": "¿Podría tener un asiento junto a la ventana?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-013",
+      "expression": "Could you ...?",
+      "meaning": "¿Podrías...?, ¿podría usted...?",
+      "category": "REQUESTS",
+      "levelEstimate": "A2",
+      "usageNote": "Petición cortés a otra persona. Va seguido de un verbo en forma base.",
+      "examples": [
+        {
+          "id": "ex-013-01",
+          "context": "HOME",
+          "english": "Could you help me carry this box?",
+          "spanish": "¿Podrías ayudarme a cargar esta caja?"
+        },
+        {
+          "id": "ex-013-02",
+          "context": "TRANSPORT",
+          "english": "Could you show me where the station is?",
+          "spanish": "¿Podría indicarme dónde está la estación?"
+        },
+        {
+          "id": "ex-013-03",
+          "context": "WORK",
+          "english": "Could you send me the details?",
+          "spanish": "¿Podrías enviarme los detalles?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-014",
+      "expression": "I'm looking for ...",
+      "meaning": "Estoy buscando...",
+      "category": "REQUESTS",
+      "levelEstimate": "A2",
+      "usageNote": "«Look for» indica búsqueda; «look at» y «look after» tienen otros significados.",
+      "examples": [
+        {
+          "id": "ex-014-01",
+          "context": "SERVICES",
+          "english": "I'm looking for the nearest pharmacy.",
+          "spanish": "Estoy buscando la farmacia más cercana."
+        },
+        {
+          "id": "ex-014-02",
+          "context": "HOME",
+          "english": "I'm looking for my keys.",
+          "spanish": "Estoy buscando mis llaves."
+        },
+        {
+          "id": "ex-014-03",
+          "context": "WORK",
+          "english": "I'm looking for a new job.",
+          "spanish": "Estoy buscando un nuevo trabajo."
+        }
+      ]
+    },
+    {
+      "id": "chunk-015",
+      "expression": "Do you have ...?",
+      "meaning": "¿Tienes...?, ¿tienen...?",
+      "category": "REQUESTS",
+      "levelEstimate": "A1",
+      "usageNote": "Pregunta por disponibilidad o posesión; el significado depende del contexto.",
+      "examples": [
+        {
+          "id": "ex-015-01",
+          "context": "SHOPPING",
+          "english": "Do you have this in a smaller size?",
+          "spanish": "¿Tienen esto en una talla más pequeña?"
+        },
+        {
+          "id": "ex-015-02",
+          "context": "FOOD",
+          "english": "Do you have any vegetarian options?",
+          "spanish": "¿Tienen opciones vegetarianas?"
+        },
+        {
+          "id": "ex-015-03",
+          "context": "WORK",
+          "english": "Do you have a minute to talk?",
+          "spanish": "¿Tienes un minuto para hablar?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-016",
+      "expression": "Is it possible to ...?",
+      "meaning": "¿Es posible...?",
+      "category": "REQUESTS",
+      "levelEstimate": "A2",
+      "usageNote": "Pregunta si algo se puede hacer. Va seguido de verbo en forma base.",
+      "examples": [
+        {
+          "id": "ex-016-01",
+          "context": "SHOPPING",
+          "english": "Is it possible to pay by card?",
+          "spanish": "¿Es posible pagar con tarjeta?"
+        },
+        {
+          "id": "ex-016-02",
+          "context": "TRAVEL",
+          "english": "Is it possible to change my reservation?",
+          "spanish": "¿Es posible cambiar mi reserva?"
+        },
+        {
+          "id": "ex-016-03",
+          "context": "WORK",
+          "english": "Is it possible to leave a little early today?",
+          "spanish": "¿Es posible salir un poco más temprano hoy?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-017",
+      "expression": "I need to ...",
+      "meaning": "Necesito...",
+      "category": "REQUESTS",
+      "levelEstimate": "A1",
+      "usageNote": "Expresa necesidad; el verbo va en forma base después de «to».",
+      "examples": [
+        {
+          "id": "ex-017-01",
+          "context": "HOME",
+          "english": "I need to buy groceries.",
+          "spanish": "Necesito comprar víveres."
+        },
+        {
+          "id": "ex-017-02",
+          "context": "TRANSPORT",
+          "english": "I need to catch the next bus.",
+          "spanish": "Necesito tomar el próximo autobús."
+        },
+        {
+          "id": "ex-017-03",
+          "context": "WORK",
+          "english": "I need to finish this report.",
+          "spanish": "Necesito terminar este informe."
+        }
+      ]
+    },
+    {
+      "id": "chunk-018",
+      "expression": "I have to ...",
+      "meaning": "Tengo que...",
+      "category": "REQUESTS",
+      "levelEstimate": "A1",
+      "usageNote": "Expresa obligación o necesidad, a menudo por circunstancias externas.",
+      "examples": [
+        {
+          "id": "ex-018-01",
+          "context": "TRANSPORT",
+          "english": "I have to leave in ten minutes.",
+          "spanish": "Tengo que irme en diez minutos."
+        },
+        {
+          "id": "ex-018-02",
+          "context": "FAMILY",
+          "english": "I have to pick up my sister.",
+          "spanish": "Tengo que recoger a mi hermana."
+        },
+        {
+          "id": "ex-018-03",
+          "context": "WORK",
+          "english": "I have to work late today.",
+          "spanish": "Tengo que trabajar hasta tarde hoy."
+        }
+      ]
+    },
+    {
+      "id": "chunk-019",
+      "expression": "Can I ...?",
+      "meaning": "¿Puedo...?",
+      "category": "REQUESTS",
+      "levelEstimate": "A1",
+      "usageNote": "Para pedir permiso o saber si algo está permitido o es posible.",
+      "examples": [
+        {
+          "id": "ex-019-01",
+          "context": "SOCIAL",
+          "english": "Can I sit here?",
+          "spanish": "¿Puedo sentarme aquí?"
+        },
+        {
+          "id": "ex-019-02",
+          "context": "SHOPPING",
+          "english": "Can I pay by card?",
+          "spanish": "¿Puedo pagar con tarjeta?"
+        },
+        {
+          "id": "ex-019-03",
+          "context": "FAMILY",
+          "english": "Can I call you later?",
+          "spanish": "¿Puedo llamarte más tarde?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-020",
+      "expression": "Would you mind ...?",
+      "meaning": "¿Te importaría...?, ¿le importaría...?",
+      "category": "REQUESTS",
+      "levelEstimate": "B1",
+      "usageNote": "Para pedir algo con cortesía. Después se usa el verbo en -ing, no el infinitivo.",
+      "examples": [
+        {
+          "id": "ex-020-01",
+          "context": "HOME",
+          "english": "Would you mind opening the window?",
+          "spanish": "¿Te importaría abrir la ventana?"
+        },
+        {
+          "id": "ex-020-02",
+          "context": "SERVICES",
+          "english": "Would you mind waiting a moment?",
+          "spanish": "¿Le importaría esperar un momento?"
+        },
+        {
+          "id": "ex-020-03",
+          "context": "STUDY",
+          "english": "Would you mind speaking a little more slowly?",
+          "spanish": "¿Te importaría hablar un poco más despacio?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-021",
+      "expression": "What do you mean by ...?",
+      "meaning": "¿Qué quieres decir con...?, ¿qué significa... en este contexto?",
+      "category": "CLARIFY",
+      "levelEstimate": "B1",
+      "usageNote": "Pide que expliquen una palabra, idea o expresión concreta.",
+      "examples": [
+        {
+          "id": "ex-021-01",
+          "context": "WORK",
+          "english": "What do you mean by \"urgent\"?",
+          "spanish": "¿Qué quieres decir con «urgente»?"
+        },
+        {
+          "id": "ex-021-02",
+          "context": "TRANSPORT",
+          "english": "What do you mean by \"the last stop\"?",
+          "spanish": "¿Qué quieres decir con «la última parada»?"
+        },
+        {
+          "id": "ex-021-03",
+          "context": "TRAVEL",
+          "english": "What do you mean by \"fully booked\"?",
+          "spanish": "¿Qué quiere decir «fully booked» (sin disponibilidad)?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-022",
+      "expression": "Could you say that again?",
+      "meaning": "¿Podrías repetir eso?",
+      "category": "CLARIFY",
+      "levelEstimate": "A2",
+      "usageNote": "Útil cuando no escuchaste o entendiste bien; «Sorry» suaviza la petición.",
+      "examples": [
+        {
+          "id": "ex-022-01",
+          "context": "SOCIAL",
+          "english": "Sorry, could you say that again?",
+          "spanish": "Disculpa, ¿podrías repetir eso?"
+        },
+        {
+          "id": "ex-022-02",
+          "context": "STUDY",
+          "english": "Could you say that again a little more slowly?",
+          "spanish": "¿Podrías repetir eso un poco más despacio?"
+        },
+        {
+          "id": "ex-022-03",
+          "context": "SERVICES",
+          "english": "Could you say that again? I didn't catch the address.",
+          "spanish": "¿Podría repetir eso? No alcancé a entender la dirección."
+        }
+      ]
+    },
+    {
+      "id": "chunk-023",
+      "expression": "How do you say ... in English?",
+      "meaning": "¿Cómo se dice... en inglés?",
+      "category": "CLARIFY",
+      "levelEstimate": "A1",
+      "usageNote": "Útil para pedir vocabulario que todavía no conoces.",
+      "examples": [
+        {
+          "id": "ex-023-01",
+          "context": "STUDY",
+          "english": "How do you say \"enchufe\" in English?",
+          "spanish": "¿Cómo se dice «enchufe» en inglés?"
+        },
+        {
+          "id": "ex-023-02",
+          "context": "FOOD",
+          "english": "How do you say \"servilleta\" in English?",
+          "spanish": "¿Cómo se dice «servilleta» en inglés?"
+        },
+        {
+          "id": "ex-023-03",
+          "context": "SOCIAL",
+          "english": "How do you say this in English?",
+          "spanish": "¿Cómo se dice esto en inglés?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-024",
+      "expression": "Do you know where ... is?",
+      "meaning": "¿Sabes dónde está...?",
+      "category": "CLARIFY",
+      "levelEstimate": "A2",
+      "usageNote": "Pregunta indirecta: usa el orden «where + sujeto + is», no «where is + sujeto».",
+      "examples": [
+        {
+          "id": "ex-024-01",
+          "context": "TRANSPORT",
+          "english": "Do you know where the bus station is?",
+          "spanish": "¿Sabes dónde está la terminal de autobuses?"
+        },
+        {
+          "id": "ex-024-02",
+          "context": "WORK",
+          "english": "Do you know where the meeting room is?",
+          "spanish": "¿Sabes dónde está la sala de reuniones?"
+        },
+        {
+          "id": "ex-024-03",
+          "context": "HOME",
+          "english": "Do you know where my jacket is?",
+          "spanish": "¿Sabes dónde está mi chaqueta?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-025",
+      "expression": "Do you know how to ...?",
+      "meaning": "¿Sabes cómo...?",
+      "category": "CLARIFY",
+      "levelEstimate": "A2",
+      "usageNote": "Para preguntar si alguien conoce un procedimiento o sabe hacer algo.",
+      "examples": [
+        {
+          "id": "ex-025-01",
+          "context": "HOME",
+          "english": "Do you know how to use this washing machine?",
+          "spanish": "¿Sabes cómo usar esta lavadora?"
+        },
+        {
+          "id": "ex-025-02",
+          "context": "TRANSPORT",
+          "english": "Do you know how to get to the museum?",
+          "spanish": "¿Sabes cómo llegar al museo?"
+        },
+        {
+          "id": "ex-025-03",
+          "context": "WORK",
+          "english": "Do you know how to connect to the Wi-Fi?",
+          "spanish": "¿Sabes cómo conectarte al wifi?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-026",
+      "expression": "I'm not sure ...",
+      "meaning": "No estoy seguro de..., no sé con certeza si...",
+      "category": "CLARIFY",
+      "levelEstimate": "A2",
+      "usageNote": "Expresa duda o incertidumbre; puede ir seguido de «if», «what», «how», etc.",
+      "examples": [
+        {
+          "id": "ex-026-01",
+          "context": "SOCIAL",
+          "english": "I'm not sure what time it starts.",
+          "spanish": "No estoy seguro de a qué hora empieza."
+        },
+        {
+          "id": "ex-026-02",
+          "context": "TRANSPORT",
+          "english": "I'm not sure if this is the right bus.",
+          "spanish": "No estoy seguro de si este es el autobús correcto."
+        },
+        {
+          "id": "ex-026-03",
+          "context": "STUDY",
+          "english": "I'm not sure how to explain it.",
+          "spanish": "No estoy seguro de cómo explicarlo."
+        }
+      ]
+    },
+    {
+      "id": "chunk-027",
+      "expression": "Let me check ...",
+      "meaning": "Déjame revisar..., permíteme comprobar...",
+      "category": "CLARIFY",
+      "levelEstimate": "A2",
+      "usageNote": "Indica que vas a verificar algo antes de responder.",
+      "examples": [
+        {
+          "id": "ex-027-01",
+          "context": "TRANSPORT",
+          "english": "Let me check the schedule.",
+          "spanish": "Déjame revisar el horario."
+        },
+        {
+          "id": "ex-027-02",
+          "context": "WORK",
+          "english": "Let me check my calendar.",
+          "spanish": "Déjame revisar mi calendario."
+        },
+        {
+          "id": "ex-027-03",
+          "context": "SHOPPING",
+          "english": "Let me check the price.",
+          "spanish": "Déjame comprobar el precio."
+        }
+      ]
+    },
+    {
+      "id": "chunk-028",
+      "expression": "I didn't catch ...",
+      "meaning": "No alcancé a oír/entender...",
+      "category": "CLARIFY",
+      "levelEstimate": "B1",
+      "usageNote": "En una conversación, «catch» también puede significar captar lo que alguien dijo.",
+      "examples": [
+        {
+          "id": "ex-028-01",
+          "context": "SOCIAL",
+          "english": "I didn't catch your name.",
+          "spanish": "No alcancé a escuchar tu nombre."
+        },
+        {
+          "id": "ex-028-02",
+          "context": "STUDY",
+          "english": "I didn't catch the last part.",
+          "spanish": "No alcancé a entender la última parte."
+        },
+        {
+          "id": "ex-028-03",
+          "context": "TRANSPORT",
+          "english": "I didn't catch what the driver said.",
+          "spanish": "No alcancé a entender lo que dijo el conductor."
+        }
+      ]
+    },
+    {
+      "id": "chunk-029",
+      "expression": "Could you explain ...?",
+      "meaning": "¿Podrías explicar...?, ¿podría explicarme...?",
+      "category": "CLARIFY",
+      "levelEstimate": "A2",
+      "usageNote": "Pide una explicación; «explain something to someone» es la estructura habitual.",
+      "examples": [
+        {
+          "id": "ex-029-01",
+          "context": "STUDY",
+          "english": "Could you explain how this works?",
+          "spanish": "¿Podrías explicarme cómo funciona esto?"
+        },
+        {
+          "id": "ex-029-02",
+          "context": "SERVICES",
+          "english": "Could you explain the instructions?",
+          "spanish": "¿Podría explicarme las instrucciones?"
+        },
+        {
+          "id": "ex-029-03",
+          "context": "WORK",
+          "english": "Could you explain why we need to wait?",
+          "spanish": "¿Podrías explicarme por qué tenemos que esperar?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-030",
+      "expression": "What happens if ...?",
+      "meaning": "¿Qué pasa si...?",
+      "category": "CLARIFY",
+      "levelEstimate": "A2",
+      "usageNote": "Pregunta por consecuencias posibles; frecuentemente se usa presente en la condición.",
+      "examples": [
+        {
+          "id": "ex-030-01",
+          "context": "TRANSPORT",
+          "english": "What happens if I miss the bus?",
+          "spanish": "¿Qué pasa si pierdo el autobús?"
+        },
+        {
+          "id": "ex-030-02",
+          "context": "SOCIAL",
+          "english": "What happens if we arrive late?",
+          "spanish": "¿Qué pasa si llegamos tarde?"
+        },
+        {
+          "id": "ex-030-03",
+          "context": "WORK",
+          "english": "What happens if I forget my password?",
+          "spanish": "¿Qué pasa si olvido mi contraseña?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-031",
+      "expression": "I think ...",
+      "meaning": "Creo que..., pienso que...",
+      "category": "OPINIONS",
+      "levelEstimate": "A1",
+      "usageNote": "Introduce una opinión. Después suele ir una oración completa.",
+      "examples": [
+        {
+          "id": "ex-031-01",
+          "context": "FOOD",
+          "english": "I think this place is nice.",
+          "spanish": "Creo que este lugar es agradable."
+        },
+        {
+          "id": "ex-031-02",
+          "context": "TRANSPORT",
+          "english": "I think we should leave earlier.",
+          "spanish": "Creo que deberíamos salir más temprano."
+        },
+        {
+          "id": "ex-031-03",
+          "context": "WORK",
+          "english": "I think the meeting went well.",
+          "spanish": "Creo que la reunión salió bien."
+        }
+      ]
+    },
+    {
+      "id": "chunk-032",
+      "expression": "I don't think ...",
+      "meaning": "No creo que...",
+      "category": "OPINIONS",
+      "levelEstimate": "A2",
+      "usageNote": "Forma natural de expresar desacuerdo o una opinión negativa.",
+      "examples": [
+        {
+          "id": "ex-032-01",
+          "context": "SHOPPING",
+          "english": "I don't think it's expensive.",
+          "spanish": "No creo que sea caro."
+        },
+        {
+          "id": "ex-032-02",
+          "context": "SOCIAL",
+          "english": "I don't think we have enough time.",
+          "spanish": "No creo que tengamos suficiente tiempo."
+        },
+        {
+          "id": "ex-032-03",
+          "context": "WORK",
+          "english": "I don't think this is the right approach.",
+          "spanish": "No creo que este sea el enfoque correcto."
+        }
+      ]
+    },
+    {
+      "id": "chunk-033",
+      "expression": "It depends on ...",
+      "meaning": "Depende de...",
+      "category": "OPINIONS",
+      "levelEstimate": "A2",
+      "usageNote": "«Depend on» se completa con sustantivo o una pregunta indirecta, como «when we finish».",
+      "examples": [
+        {
+          "id": "ex-033-01",
+          "context": "LEISURE",
+          "english": "It depends on the weather.",
+          "spanish": "Depende del clima."
+        },
+        {
+          "id": "ex-033-02",
+          "context": "SHOPPING",
+          "english": "It depends on how much it costs.",
+          "spanish": "Depende de cuánto cueste."
+        },
+        {
+          "id": "ex-033-03",
+          "context": "WORK",
+          "english": "It depends on when we finish.",
+          "spanish": "Depende de cuándo terminemos."
+        }
+      ]
+    },
+    {
+      "id": "chunk-034",
+      "expression": "I'd rather ...",
+      "meaning": "Preferiría...",
+      "category": "OPINIONS",
+      "levelEstimate": "B1",
+      "usageNote": "Indica preferencia: «I'd rather + verbo base»; puede compararse con «than».",
+      "examples": [
+        {
+          "id": "ex-034-01",
+          "context": "HOME",
+          "english": "I'd rather stay home tonight.",
+          "spanish": "Preferiría quedarme en casa esta noche."
+        },
+        {
+          "id": "ex-034-02",
+          "context": "TRANSPORT",
+          "english": "I'd rather take the bus than walk.",
+          "spanish": "Preferiría tomar el autobús en lugar de caminar."
+        },
+        {
+          "id": "ex-034-03",
+          "context": "WORK",
+          "english": "I'd rather talk about it tomorrow.",
+          "spanish": "Preferiría hablar de eso mañana."
+        }
+      ]
+    },
+    {
+      "id": "chunk-035",
+      "expression": "I'm planning to ...",
+      "meaning": "Estoy planeando...",
+      "category": "OPINIONS",
+      "levelEstimate": "A2",
+      "usageNote": "Se utiliza para planes o intenciones; va seguido de verbo en forma base.",
+      "examples": [
+        {
+          "id": "ex-035-01",
+          "context": "FAMILY",
+          "english": "I'm planning to visit my family this weekend.",
+          "spanish": "Estoy planeando visitar a mi familia este fin de semana."
+        },
+        {
+          "id": "ex-035-02",
+          "context": "STUDY",
+          "english": "I'm planning to start a new course.",
+          "spanish": "Estoy planeando comenzar un curso nuevo."
+        },
+        {
+          "id": "ex-035-03",
+          "context": "HOME",
+          "english": "I'm planning to cook dinner tonight.",
+          "spanish": "Estoy planeando preparar la cena esta noche."
+        }
+      ]
+    },
+    {
+      "id": "chunk-036",
+      "expression": "I'm thinking about ...",
+      "meaning": "Estoy pensando en...",
+      "category": "OPINIONS",
+      "levelEstimate": "B1",
+      "usageNote": "Después de «about» puedes usar sustantivo o verbo en -ing.",
+      "examples": [
+        {
+          "id": "ex-036-01",
+          "context": "SHOPPING",
+          "english": "I'm thinking about buying a new phone.",
+          "spanish": "Estoy pensando en comprar un teléfono nuevo."
+        },
+        {
+          "id": "ex-036-02",
+          "context": "LEISURE",
+          "english": "I'm thinking about taking a short trip.",
+          "spanish": "Estoy pensando en hacer un viaje corto."
+        },
+        {
+          "id": "ex-036-03",
+          "context": "FOOD",
+          "english": "I'm thinking about trying that restaurant.",
+          "spanish": "Estoy pensando en probar ese restaurante."
+        }
+      ]
+    },
+    {
+      "id": "chunk-037",
+      "expression": "What if we ...?",
+      "meaning": "¿Y si...?, ¿qué tal si...?",
+      "category": "OPINIONS",
+      "levelEstimate": "A2",
+      "usageNote": "Sirve para plantear una alternativa o sugerencia; después va una oración.",
+      "examples": [
+        {
+          "id": "ex-037-01",
+          "context": "TRANSPORT",
+          "english": "What if we leave now?",
+          "spanish": "¿Y si salimos ahora?"
+        },
+        {
+          "id": "ex-037-02",
+          "context": "FOOD",
+          "english": "What if we order something else?",
+          "spanish": "¿Y si pedimos otra cosa?"
+        },
+        {
+          "id": "ex-037-03",
+          "context": "WORK",
+          "english": "What if we move the meeting to Friday?",
+          "spanish": "¿Y si pasamos la reunión al viernes?"
+        }
+      ]
+    },
+    {
+      "id": "chunk-038",
+      "expression": "We could ...",
+      "meaning": "Podríamos...",
+      "category": "OPINIONS",
+      "levelEstimate": "A2",
+      "usageNote": "Propone una posibilidad o una sugerencia sin imponerla.",
+      "examples": [
+        {
+          "id": "ex-038-01",
+          "context": "LEISURE",
+          "english": "We could walk to the park.",
+          "spanish": "Podríamos caminar hasta el parque."
+        },
+        {
+          "id": "ex-038-02",
+          "context": "FOOD",
+          "english": "We could split the check.",
+          "spanish": "Podríamos dividir la cuenta."
+        },
+        {
+          "id": "ex-038-03",
+          "context": "WORK",
+          "english": "We could try another approach.",
+          "spanish": "Podríamos probar otro enfoque."
+        }
+      ]
+    },
+    {
+      "id": "chunk-039",
+      "expression": "That makes sense.",
+      "meaning": "Eso tiene sentido.",
+      "category": "OPINIONS",
+      "levelEstimate": "A2",
+      "usageNote": "Se usa para indicar que comprendes una explicación o que una idea te parece lógica.",
+      "examples": [
+        {
+          "id": "ex-039-01",
+          "context": "SOCIAL",
+          "english": "That makes sense to me.",
+          "spanish": "Eso tiene sentido para mí."
+        },
+        {
+          "id": "ex-039-02",
+          "context": "WORK",
+          "english": "Okay, that makes sense.",
+          "spanish": "Está bien, eso tiene sentido."
+        },
+        {
+          "id": "ex-039-03",
+          "context": "STUDY",
+          "english": "Now that makes sense.",
+          "spanish": "Ahora sí tiene sentido."
+        }
+      ]
+    },
+    {
+      "id": "chunk-040",
+      "expression": "As far as I know, ...",
+      "meaning": "Por lo que sé..., hasta donde sé...",
+      "category": "OPINIONS",
+      "levelEstimate": "B1",
+      "usageNote": "Introduce información con cautela: podría faltarte algún dato.",
+      "examples": [
+        {
+          "id": "ex-040-01",
+          "context": "SHOPPING",
+          "english": "As far as I know, the store closes at six.",
+          "spanish": "Por lo que sé, la tienda cierra a las seis."
+        },
+        {
+          "id": "ex-040-02",
+          "context": "TRANSPORT",
+          "english": "As far as I know, there are no buses after midnight.",
+          "spanish": "Por lo que sé, no hay autobuses después de medianoche."
+        },
+        {
+          "id": "ex-040-03",
+          "context": "WORK",
+          "english": "As far as I know, the file has already been sent.",
+          "spanish": "Por lo que sé, el archivo ya fue enviado."
+        }
+      ]
+    },
+    {
+      "id": "chunk-041",
+      "expression": "I'm trying to ...",
+      "meaning": "Estoy intentando...",
+      "category": "EXPERIENCES",
+      "levelEstimate": "A2",
+      "usageNote": "Expresa un esfuerzo o intento actual; después de «to» va el verbo base.",
+      "examples": [
+        {
+          "id": "ex-041-01",
+          "context": "STUDY",
+          "english": "I'm trying to learn how to cook.",
+          "spanish": "Estoy intentando aprender a cocinar."
+        },
+        {
+          "id": "ex-041-02",
+          "context": "TRANSPORT",
+          "english": "I'm trying to find a way home.",
+          "spanish": "Estoy intentando encontrar cómo volver a casa."
+        },
+        {
+          "id": "ex-041-03",
+          "context": "WORK",
+          "english": "I'm trying to fix this issue.",
+          "spanish": "Estoy intentando solucionar este problema."
+        }
+      ]
+    },
+    {
+      "id": "chunk-042",
+      "expression": "I used to ...",
+      "meaning": "Antes solía..., antes...",
+      "category": "EXPERIENCES",
+      "levelEstimate": "B1",
+      "usageNote": "Habla de hábitos o situaciones del pasado que ya no son habituales o verdaderos.",
+      "examples": [
+        {
+          "id": "ex-042-01",
+          "context": "STUDY",
+          "english": "I used to walk to school.",
+          "spanish": "Antes iba caminando a la escuela."
+        },
+        {
+          "id": "ex-042-02",
+          "context": "TRANSPORT",
+          "english": "I used to take this bus every day.",
+          "spanish": "Antes tomaba este autobús todos los días."
+        },
+        {
+          "id": "ex-042-03",
+          "context": "WORK",
+          "english": "I used to work on weekends.",
+          "spanish": "Antes trabajaba los fines de semana."
+        }
+      ]
+    },
+    {
+      "id": "chunk-043",
+      "expression": "I've never ...",
+      "meaning": "Nunca he...",
+      "category": "EXPERIENCES",
+      "levelEstimate": "A2",
+      "usageNote": "Se usa con participio pasado para experiencias que no has tenido hasta ahora.",
+      "examples": [
+        {
+          "id": "ex-043-01",
+          "context": "FOOD",
+          "english": "I've never tried sushi.",
+          "spanish": "Nunca he probado sushi."
+        },
+        {
+          "id": "ex-043-02",
+          "context": "TRAVEL",
+          "english": "I've never been to that city before.",
+          "spanish": "Nunca he estado antes en esa ciudad."
+        },
+        {
+          "id": "ex-043-03",
+          "context": "STUDY",
+          "english": "I've never used this app before.",
+          "spanish": "Nunca he usado esta aplicación."
+        }
+      ]
+    },
+    {
+      "id": "chunk-044",
+      "expression": "I just ...",
+      "meaning": "Acabo de..., recién...",
+      "category": "EXPERIENCES",
+      "levelEstimate": "A2",
+      "usageNote": "En inglés estadounidense se usa frecuentemente «just + pasado simple» para algo reciente.",
+      "examples": [
+        {
+          "id": "ex-044-01",
+          "context": "HOME",
+          "english": "I just got home.",
+          "spanish": "Acabo de llegar a casa."
+        },
+        {
+          "id": "ex-044-02",
+          "context": "FOOD",
+          "english": "I just finished lunch.",
+          "spanish": "Acabo de terminar de almorzar."
+        },
+        {
+          "id": "ex-044-03",
+          "context": "WORK",
+          "english": "I just sent the email.",
+          "spanish": "Acabo de enviar el correo electrónico."
+        }
+      ]
+    },
+    {
+      "id": "chunk-045",
+      "expression": "I forgot to ...",
+      "meaning": "Olvidé...",
+      "category": "EXPERIENCES",
+      "levelEstimate": "A2",
+      "usageNote": "«Forgot to + verbo» indica una acción que debías realizar y no hiciste.",
+      "examples": [
+        {
+          "id": "ex-045-01",
+          "context": "HOME",
+          "english": "I forgot to bring my wallet.",
+          "spanish": "Olvidé traer mi billetera."
+        },
+        {
+          "id": "ex-045-02",
+          "context": "TRANSPORT",
+          "english": "I forgot to charge my phone.",
+          "spanish": "Olvidé cargar mi teléfono."
+        },
+        {
+          "id": "ex-045-03",
+          "context": "WORK",
+          "english": "I forgot to reply to your message.",
+          "spanish": "Olvidé responder tu mensaje."
+        }
+      ]
+    },
+    {
+      "id": "chunk-046",
+      "expression": "I'm having trouble ...",
+      "meaning": "Estoy teniendo dificultades para..., me cuesta...",
+      "category": "EXPERIENCES",
+      "levelEstimate": "B1",
+      "usageNote": "«Have trouble + -ing» es una forma natural de hablar de dificultades.",
+      "examples": [
+        {
+          "id": "ex-046-01",
+          "context": "TRANSPORT",
+          "english": "I'm having trouble finding the address.",
+          "spanish": "Me está costando encontrar la dirección."
+        },
+        {
+          "id": "ex-046-02",
+          "context": "FOOD",
+          "english": "I'm having trouble understanding the menu.",
+          "spanish": "Me está costando entender el menú."
+        },
+        {
+          "id": "ex-046-03",
+          "context": "WORK",
+          "english": "I'm having trouble logging into my account.",
+          "spanish": "Estoy teniendo problemas para iniciar sesión en mi cuenta."
+        }
+      ]
+    },
+    {
+      "id": "chunk-047",
+      "expression": "Something's wrong with ...",
+      "meaning": "Algo anda mal con..., hay algún problema con...",
+      "category": "EXPERIENCES",
+      "levelEstimate": "A2",
+      "usageNote": "Expresa que algo no funciona correctamente, sin precisar la causa.",
+      "examples": [
+        {
+          "id": "ex-047-01",
+          "context": "HOME",
+          "english": "Something's wrong with my phone.",
+          "spanish": "Algo anda mal con mi teléfono."
+        },
+        {
+          "id": "ex-047-02",
+          "context": "SERVICES",
+          "english": "Something's wrong with the air conditioner.",
+          "spanish": "Algo anda mal con el aire acondicionado."
+        },
+        {
+          "id": "ex-047-03",
+          "context": "SHOPPING",
+          "english": "Something's wrong with the payment.",
+          "spanish": "Hay algún problema con el pago."
+        }
+      ]
+    },
+    {
+      "id": "chunk-048",
+      "expression": "I ran out of ...",
+      "meaning": "Me quedé sin..., se me acabó...",
+      "category": "EXPERIENCES",
+      "levelEstimate": "B1",
+      "usageNote": "«Run out of» significa agotar la cantidad disponible de algo.",
+      "examples": [
+        {
+          "id": "ex-048-01",
+          "context": "HOME",
+          "english": "I ran out of milk.",
+          "spanish": "Me quedé sin leche."
+        },
+        {
+          "id": "ex-048-02",
+          "context": "TRANSPORT",
+          "english": "I ran out of cash.",
+          "spanish": "Me quedé sin efectivo."
+        },
+        {
+          "id": "ex-048-03",
+          "context": "WORK",
+          "english": "I ran out of time.",
+          "spanish": "Se me acabó el tiempo."
+        }
+      ]
+    },
+    {
+      "id": "chunk-049",
+      "expression": "I ended up ...",
+      "meaning": "Al final terminé..., acabé...",
+      "category": "EXPERIENCES",
+      "levelEstimate": "B1",
+      "usageNote": "Indica un resultado final, a menudo diferente del plan original; después va un verbo en -ing.",
+      "examples": [
+        {
+          "id": "ex-049-01",
+          "context": "TRANSPORT",
+          "english": "I ended up taking a taxi.",
+          "spanish": "Al final terminé tomando un taxi."
+        },
+        {
+          "id": "ex-049-02",
+          "context": "FOOD",
+          "english": "I ended up eating at home.",
+          "spanish": "Al final terminé comiendo en casa."
+        },
+        {
+          "id": "ex-049-03",
+          "context": "WORK",
+          "english": "I ended up staying late at work.",
+          "spanish": "Al final terminé quedándome hasta tarde en el trabajo."
+        }
+      ]
+    },
+    {
+      "id": "chunk-050",
+      "expression": "I was about to ...",
+      "meaning": "Estaba a punto de...",
+      "category": "EXPERIENCES",
+      "levelEstimate": "B1",
+      "usageNote": "Describe una acción que estaba por ocurrir en un momento del pasado.",
+      "examples": [
+        {
+          "id": "ex-050-01",
+          "context": "HOME",
+          "english": "I was about to leave when you called.",
+          "spanish": "Estaba a punto de salir cuando llamaste."
+        },
+        {
+          "id": "ex-050-02",
+          "context": "SOCIAL",
+          "english": "I was about to call you.",
+          "spanish": "Estaba a punto de llamarte."
+        },
+        {
+          "id": "ex-050-03",
+          "context": "FOOD",
+          "english": "I was about to order lunch.",
+          "spanish": "Estaba a punto de pedir el almuerzo."
+        }
+      ]
+    }
+  ]
+}
